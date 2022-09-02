@@ -9,10 +9,12 @@ export const AppNav = () => {
       <Routes>
         <Route path="/*" />
         <Route path="/inicio" />
-        <Route path="/perfil" />
+        <Route path="/sobremi" />
         <Route path="/habilidades" />
         <Route path="/estudios" />
         <Route path="/experiencia" />
+        <Route path="/portafolio" />
+        <Route path="/contactame" />
       </Routes>
     </div>
   );

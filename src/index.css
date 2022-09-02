@@ -2,9 +2,42 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+html {
+    height: 2000px;
+}
+
+
+.header {
+    background-color: rgba(125, 121, 217, 1);
+}
 
 .inicio {
-    height: 750px;
+    padding-top: 60px;
+    height: 800px;
+    background-color: rgba(125, 121, 217, 1);
 }
+
+.botonPortafolio {
+    background-color: rgba(245, 194, 11, 1);
+    font-size: 20px;
+}
+.botonPortafolio:hover {
+    background-color: rgb(255, 174, 0);
+    font-size: 20px;
+}
+
+.sobreMi {
+    height: 740px;
+    background-color: white;
+}
+
+.underline {
+    text-decoration-color: rgba(125, 121, 217, 1);
+}
+
+
+
+
+
 
 
