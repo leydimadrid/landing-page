@@ -1,13 +1,13 @@
-import reactLogo from './assets/react.svg'
-import './App.css'
+import { Header } from "./pages/components/Header";
+import { Inicio } from "./pages/components/Inicio";
 
 function App() {
-
   return (
-    <div className="App">
-      <h1>Mi Landing page</h1>
+    <div>
+      <Header />
+      <Inicio />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -1,13 +1,21 @@
 import { Routes, Route } from "react-router-dom";
 
+import { NavBar } from "./NavBar";
+
 export const AppNav = () => {
   return (
     <div className="App">
-      <h1>Welcome to React Router!</h1>
+      <NavBar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="about" element={<About />} />
+        <Route path="/*" />
+        <Route path="/inicio" />
+        <Route path="/perfil" />
+        <Route path="/habilidades" />
+        <Route path="/estudios" />
+        <Route path="/experiencia" />
       </Routes>
     </div>
-  )
-}
+  );
+};
+
+export default AppNav;
