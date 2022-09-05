@@ -27,12 +27,16 @@ html {
 }
 
 .sobreMi {
-    height: 740px;
-    background-color: white;
+    height: 720px;
+    background-color:white;
 }
 
 .underline {
     text-decoration-color: rgba(125, 121, 217, 1);
+}
+
+.saludoHola {
+    color:blueviolet;
 }
 
 

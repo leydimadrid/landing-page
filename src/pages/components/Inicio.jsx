@@ -7,7 +7,7 @@ export const Inicio = () => {
         <h1 className="font-black text-white text-8xl drop-shadow-md text-center">
           Bienvenidos
         </h1>
-        <h1 className="parrafoInicio text-white text-4xl">
+        <h1 className=" text-white text-4xl">
           Aquí encontrarás un poco sobre mí y <br /> algunos proyectos que he
           realizado.
         </h1>
