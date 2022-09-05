@@ -3,45 +3,47 @@
 @import "tailwindcss/utilities";
 
 html {
-    height: 2000px;
+  height: 2000px;
 }
 
-
 .header {
-    background-color: rgba(125, 121, 217, 1);
+  background-color: rgba(125, 121, 217, 1);
 }
 
 .inicio {
-    padding-top: 60px;
-    height: 800px;
-    background-color: rgba(125, 121, 217, 1);
+  padding-top: 60px;
+  height: 800px;
+  background-color: rgba(125, 121, 217, 1);
 }
 
 .botonPortafolio {
-    background-color: rgba(245, 194, 11, 1);
-    font-size: 20px;
+  background-color: rgba(245, 194, 11, 1);
+  font-size: 20px;
 }
 .botonPortafolio:hover {
-    background-color: rgb(255, 174, 0);
-    font-size: 20px;
+  background-color: rgb(255, 174, 0);
+  font-size: 20px;
 }
 
 .sobreMi {
-    height: 720px;
-    background-color:white;
+  height: 720px;
+  background-color: white;
 }
 
 .underline {
-    text-decoration-color: rgba(125, 121, 217, 1);
+  text-decoration-color: rgba(125, 121, 217, 1);
 }
 
 .saludoHola {
-    color:blueviolet;
+  color: blueviolet;
 }
 
-
-
-
-
-
-
+.habilidades {
+  height: 720px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(125, 121, 217, 1) 70%
+  );
+}
