@@ -26,7 +26,7 @@ html {
 }
 
 .sobreMi {
-  height: 720px;
+  height: 674px;
   background-color: white;
 }
 
@@ -35,7 +35,7 @@ html {
 }
 
 .saludoHola {
-  color: blueviolet;
+  color: rgba(125, 121, 217, 1);
 }
 
 .habilidades {
@@ -44,6 +44,18 @@ html {
   background: linear-gradient(
     0deg,
     rgba(255, 255, 255, 1) 0%,
-    rgba(125, 121, 217, 1) 70%
+    rgba(126, 121, 217, 0.164) 70%
   );
+}
+
+.diseñoGraficoHabilidad {
+  color: rgba(125, 121, 217, 1);
+}
+
+.desarrolloWebHabilidad{
+  color: rgba(125, 121, 217, 1);
+}
+
+.desarrollo {
+  width: 70%;
 }
