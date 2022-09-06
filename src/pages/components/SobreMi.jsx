@@ -9,7 +9,7 @@ export const SobreMi = () => {
           <img src={fotoLeydi} />
         </div>
 
-        <div className="my-auto text-left mx-auto">
+        <div className="my-auto text-left mx-auto px-4 py-4">
           <h1 className="saludoHola font-black text-white text-3xl text-left">
             ¡Hola!
           </h1>

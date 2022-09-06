@@ -16,6 +16,11 @@ html {
   background-color: rgba(125, 121, 217, 1);
 }
 
+.textoBienvenidos {
+  font-size: 80px;
+  height: 110px;
+}
+
 .botonPortafolio {
   background-color: rgba(245, 194, 11, 1);
   font-size: 20px;
@@ -39,7 +44,7 @@ html {
 }
 
 .habilidades {
-  height: 720px;
+  height: 475px;
   background: rgb(255, 255, 255);
   background: linear-gradient(
     0deg,
@@ -58,4 +63,20 @@ html {
 
 .desarrollo {
   width: 70%;
+}
+
+.estudios {
+  height: 230px;
+  background-color: rgba(125, 121, 217, 1);
+  
+}
+
+.experiencia {
+  height: 360px;
+  background-color: rgba(125, 121, 217, 1);
+  
+}
+
+.Cultivos {
+  width: 30%;
 }

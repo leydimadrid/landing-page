@@ -2,12 +2,12 @@ import ilustracionInicio from "../../assets/ilustracionInicio.png";
 
 export const Inicio = () => {
   return (
-    <div className="inicio md:flex justify-center mx-auto">
+    <div className="inicio md:flex justify-center">
       <div className="my-auto text-center">
-        <h1 className="font-black text-white text-8xl drop-shadow-md text-center">
+        <h1 className="textoBienvenidos font-black text-white drop-shadow-md text-center px-3">
           Bienvenidos
         </h1>
-        <h1 className=" text-white text-4xl">
+        <h1 className=" text-white text-3xl">
           Aquí encontrarás un poco sobre mí y <br /> algunos proyectos que he
           realizado.
         </h1>
