@@ -1,10 +1,12 @@
-import { Estudios } from "./pages/components/Estudios";
-import { Experiencia } from "./pages/components/Experiencia";
-import { Habilidades } from "./pages/components/Habilidades";
-import { Header } from "./pages/components/Header";
-import { Inicio } from "./pages/components/Inicio";
-import { Portafolio } from "./pages/components/Portafolio";
-import { SobreMi } from "./pages/components/SobreMi";
+import { Header } from "./components/Header";
+import { Inicio } from "./components/Inicio";
+import { SobreMi } from "./components/SobreMi";
+import { Habilidades } from "./components/Habilidades";
+import { Estudios } from "./components/Estudios";
+import { Experiencia } from "./components/Experiencia";
+import { Portafolio } from "./components/Portafolio";
+import { Contactame } from "./components/Contactame";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <Estudios />
       <Experiencia />
       <Portafolio />
+      <Contactame />
+      <Footer />
     </div>
   );
 }

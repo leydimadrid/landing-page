@@ -1,4 +1,4 @@
-import fotoLeydi from "../../assets/fotoLeydi.png";
+import fotoLeydi from "../assets/fotoLeydi.png";
 
 export const SobreMi = () => {
   return (

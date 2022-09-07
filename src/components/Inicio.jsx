@@ -1,4 +1,4 @@
-import ilustracionInicio from "../../assets/ilustracionInicio.png";
+import ilustracionInicio from "../assets/ilustracionInicio.png";
 
 export const Inicio = () => {
   return (

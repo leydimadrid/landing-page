@@ -3,7 +3,7 @@
 @import "tailwindcss/utilities";
 
 html {
-  height: 2000px;
+  height: auto;
 }
 
 .header {
@@ -53,11 +53,15 @@ html {
   );
 }
 
+.seccionPortafolio {
+  height: auto;
+}
+
 .diseñoGraficoHabilidad {
   color: rgba(125, 121, 217, 1);
 }
 
-.desarrolloWebHabilidad{
+.desarrolloWebHabilidad {
   color: rgba(125, 121, 217, 1);
 }
 
@@ -68,15 +72,62 @@ html {
 .estudios {
   height: 230px;
   background-color: rgba(125, 121, 217, 1);
-  
 }
 
 .experiencia {
   height: 360px;
   background-color: rgba(125, 121, 217, 1);
-  
 }
 
 .Cultivos {
   width: 30%;
+}
+
+.cajaTrabajosDesarrollo {
+  background-color: rgb(199, 199, 199);
+  height: auto;
+  width: 931px;
+}
+
+.cajaImagenPagWeb {
+  height: auto;
+}
+
+.botonVistayGitHub {
+  background-color: rgba(125, 121, 217, 1);
+  font-size: 20px;
+}
+.botonVistayGitHub:hover {
+  background-color: rgb(95, 89, 209);
+  font-size: 20px;
+}
+
+.contactame {
+  height: auto;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(126, 121, 217, 0.164) 70%
+  );
+}
+
+.formulario {
+  background-color: rgba(125, 121, 217, 1);
+  height: auto;
+  width: 800px;
+}
+
+.enviarMensaje {
+  background-color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+.enviarMensaje:hover {
+  background-color: rgb(230, 230, 230);
+  font-size: 20px;
+}
+
+.pieDePagina {
+  background-color: rgba(125, 121, 217, 1);
+  height: 70px;
 }

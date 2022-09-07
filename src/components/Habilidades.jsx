@@ -1,10 +1,10 @@
-import animacion from "../../assets/animacion.png";
-import disenoDigital from "../../assets/disenoDigital.png";
-import disenoUIUX from "../../assets/disenoUIUX.png";
-import html from "../../assets/html.png";
-import css from "../../assets/css.png";
-import javaScript from "../../assets/javaScript.png";
-import react from "../../assets/react.png";
+import animacion from "../assets/animacion.png";
+import disenoDigital from "../assets/disenoDigital.png";
+import disenoUIUX from "../assets/disenoUIUX.png";
+import html from "../assets/html.png";
+import css from "../assets/css.png";
+import javaScript from "../assets/javaScript.png";
+import react from "../assets/react.png";
 
 
 export const Habilidades = (titulo) => {

@@ -1,5 +1,5 @@
-import AppNav from "../../routes/AppNav";
-import logoSaroma from '../../assets/logoSaroma.png';
+import AppNav from "../routes/AppNav";
+import logoSaroma from '../assets/logoSaroma.png';
 
 export const Header = () => {
   return (
