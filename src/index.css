@@ -4,7 +4,9 @@
 
 html {
   height: auto;
+  font-family: 'Poppins', sans-serif;
 }
+
 
 .header {
   background-color: rgba(125, 121, 217, 1);
@@ -17,11 +19,14 @@ html {
 }
 
 .textoBienvenidos {
-  font-size: 80px;
   height: 110px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
 }
 
 .botonPortafolio {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
   background-color: rgba(245, 194, 11, 1);
   font-size: 20px;
 }
@@ -31,7 +36,7 @@ html {
 }
 
 .sobreMi {
-  height: 674px;
+  height: 610px;
   background-color: white;
 }
 
@@ -65,12 +70,9 @@ html {
   color: rgba(125, 121, 217, 1);
 }
 
-.desarrollo {
-  width: 70%;
-}
 
 .estudios {
-  height: 230px;
+  height: 270px;
   background-color: rgba(125, 121, 217, 1);
 }
 

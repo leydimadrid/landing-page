@@ -5,7 +5,7 @@ export const PortafolioDesarrolloWeb = () => {
 
     
     <div className="flex justify-center">
-        <div className="cajaTrabajosDesarrollo rounded-xl py-8 px-8 drop-shadow-md mb-5 mx-5">
+        <div className="cajaTrabajosDesarrollo rounded-xl py-8 px-8 shadow-md mb-5 mx-5">
           <div className="cajaImagenPagWeb bg-white rounded-xl">
           <img className="rounded-xl" src={paginaPersonal} />
           </div>
