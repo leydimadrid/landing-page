@@ -3,7 +3,7 @@ import fotoLeydi from "../assets/foto-leydi.png";
 export const SobreMi = () => {
   return (
     <div className="mt-5">
-      <div className="text-2xl font-black text-center underline">Sobre mí</div>
+      <div id="sobremi" className="text-2xl font-black text-center underline">Sobre mí</div>
       <div className="sobreMi md:flex">
         <div className="w-2/6">
           <img src={fotoLeydi} />

@@ -1,21 +1,15 @@
-import paginaPersonal from "../assets/paginaPersonal.png";
-
-export const PortafolioDesarrolloWeb = () => {
+export const PortafolioDesarrolloWeb = ({titulo, descripcion, imagen}) => {
   return (
 
     
     <div className="flex justify-center">
         <div className="cajaTrabajosDesarrollo rounded-xl py-8 px-8 shadow-md mb-5 mx-5">
           <div className="cajaImagenPagWeb bg-white rounded-xl">
-          <img className="rounded-xl" src={paginaPersonal} />
+          <img className="rounded-xl" src={imagen} />
           </div>
           <p className="mt-4 mb-4 text-black">
-            <span className="font-bold text-black">Título de la página</span> <br/>
-            is simply dummy text of the printing and typesetting industry. Lorem
-            Ipsum has been the industry's standard dummy text ever since the
-            1500s, when an unknown printer took a galley of type and scrambled
-            it to make a type specimen book. It has survived not only five
-            centuries, but also the leap into electronic
+            <span className="font-bold text-black">{titulo}</span> <br/>
+            {descripcion}
           </p>
           <div className="flex justify-center">
           <input

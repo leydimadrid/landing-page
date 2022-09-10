@@ -15,13 +15,13 @@ export const AppNav = () => {
       <NavBar />
       <Routes>
         <Route path="/*" />
-        <Route path="/inicio" element={<Inicio />} />
-        <Route path="/sobremi" element={<SobreMi />}/>
-        <Route path="/habilidades" element={<Habilidades />}/>
-        <Route path="/estudios" element={<Estudios />}/>
-        <Route path="/experiencia" element={<Experiencia />}/>
-        <Route path="/portafolio" element={<Portafolio />} />
-        <Route path="/contactame" element={<Contactame />} />
+        <Route path="#inicio" />
+        <Route path="/sobremi" />
+        <Route path="/habilidades" />
+        <Route path="/estudios" />
+        <Route path="/experiencia" />
+        <Route path="/portafolio"  />
+        <Route path="/contactame"  />
       </Routes>
     </div>
   );
