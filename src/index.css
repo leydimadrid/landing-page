@@ -13,31 +13,24 @@ html {
 }
 
 .inicio {
-  padding-top: 60px;
-  height: 800px;
+  padding-top: 100px;
   background-color: rgba(125, 121, 217, 1);
 }
 
 .textoBienvenidos {
-  height: 110px;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
 }
 
 .botonPortafolio {
   font-family: 'Poppins', sans-serif;
-  font-weight: 200;
+  font-weight: 600;
   background-color: rgba(245, 194, 11, 1);
   font-size: 20px;
 }
 .botonPortafolio:hover {
   background-color: rgb(255, 174, 0);
   font-size: 20px;
-}
-
-.sobreMi {
-  height: 610px;
-  background-color: white;
 }
 
 .underline {
@@ -49,7 +42,6 @@ html {
 }
 
 .habilidades {
-  height: 475px;
   background: rgb(255, 255, 255);
   background: linear-gradient(
     0deg,
@@ -77,7 +69,6 @@ html {
 }
 
 .experiencia {
-  height: 360px;
   background-color: rgba(125, 121, 217, 1);
 }
 

@@ -3,29 +3,29 @@ import fotoLeydi from "../assets/foto-leydi.png";
 export const SobreMi = () => {
   return (
     <div className="mt-5">
-      <div id="sobremi" className="text-2xl font-black text-center underline">Sobre mí</div>
-      <div className="sobreMi md:flex">
-        <div className="w-2/6">
+      <div id="sobremi" className="text-2xl font-black text-center underline mb-5">Sobre mí</div>
+      
+      <div className="bg-white md:flex">
+        <div className="w-96 md:w-1/3">
           <img src={fotoLeydi} />
         </div>
 
-        <div className="my-auto text-left mx-auto px-4 py-4">
-          <h1 className="saludoHola font-black text-white text-3xl text-left">
-            ¡Hola!
+          <div className="block my-auto mx-auto w-96 md:w-2/5 pt-6 pb-6">
+          <h1 className="text-black font-black text-4xl md:text-5xl text-left block mx-4">
+            ¡Hola! 😊 <span className="saludoHola block font-black text-black text-2xl md:text-3xl text-left mt-2">Mi nombre es Leydi</span>
           </h1>
-          <h1 className="font-black text-black text-3xl text-left">
-            Mi nombre es Leydi
-          </h1>
-          <p className=" text-black text-2xl text-justify">
+          
+          <p className=" text-black text-xl md:text-2xl mx-4 mt-2 text-justify">
             Soy <span className="font-black">diseñadora gráfica </span> y{" "}
-            <span className="font-black"> desarrolladora web, </span> <br />{" "}
-            apasionada por el diseño en todas sus formas, me <br /> considero
-            una persona dedicada, responsable, <br /> honesta, respetuosa y me
-            encanta la idea de <br /> adquirir nuevos conocimientos que
-            fortalezcan mi <br />
+            <span className="font-black"> desarrolladora web, </span>
+            apasionada por el diseño en todas sus formas, me considero
+            una persona dedicada, responsable, honesta, respetuosa y me
+            encanta la idea de adquirir nuevos conocimientos que
+            fortalezcan mi 
             carrera y mi vida personal.
           </p>
-        </div>
+          </div>
+        
       </div>
     </div>
   );

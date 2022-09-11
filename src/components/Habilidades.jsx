@@ -13,56 +13,56 @@ export const Habilidades = () => {
       <div className="text-2xl font-black text-center underline pt-5">
         Habilidades
       </div> 
-      <h1 className="diseñoGraficoHabilidad ml-16 text-2xl font-bold mt-12 mb-4">
+      <h1 className="diseñoGraficoHabilidad text-2xl font-bold mt-12 mb-4 text-center">
         Diseño gráfico
       </h1>
-      <div className="h-auto flex flex-cols-3 items-center mb-20">
-        <div className="w-auto h-16 mx-auto">
-        <div className="md:flex items-center">
-        <img className="mx-1" src={animacion} />
-          <span className="font-bold text-2xl mr-2">Animación 2D</span>
+      <div className="flex flex-cols-3 mx-4 items-center mb-14 pt-7">
+        <div className="mx-auto">
+        <div className="md:flex items-center text-center">
+        <img className="mx-auto" src={animacion} />
+          <span className="font-bold text-xl md:text-2xl">Animación 2D</span>
         </div>
         </div>
-        <div className="w-auto h-20 mx-auto">
-        <div className="md:flex items-center">
-          <img className="mx-1" src={disenoDigital} />
-          <span className="font-bold text-2xl mr-2">Diseño digital</span>
+        <div className="mx-auto">
+        <div className="md:flex items-center text-center">
+          <img className="mx-auto" src={disenoDigital} />
+          <span className="font-bold text-xl md:text-2xl">Diseño digital</span>
         </div>
         </div>
-        <div className="w-auto h-20 mx-auto">
-        <div className="md:flex items-center">
-          <img className="mx-1" src={disenoUIUX} />
-          <span className="font-bold text-2xl">Diseño UI/UX</span>
+        <div className="mx-auto">
+        <div className="md:flex items-center text-center">
+          <img className="mx-auto" src={disenoUIUX} />
+          <span className="font-bold text-xl md:text-2xl">Diseño UI/UX</span>
         </div>
         </div>
       </div>
-      <h1 className="desarrolloWebHabilidad ml-16 text-2xl font-bold mb-4">
+      <h1 className="desarrolloWebHabilidad text-2xl font-bold mb-4 text-center">
         Desarrollo web
       </h1>
-      <div className="h-auto flex flex-cols-4 items-center">
-      <div className="w-auto h-16 mx-auto">
-        <div className="md:flex items-center">
+      <div className="flex flex-cols-4 mx-4 items-center pb-7">
+      <div className="mx-auto">
+        <div className="md:flex items-center text-center">
           {" "}
-          <img className="mx-1" src={html} />{" "}
-          <span className="font-bold text-2xl mr-2">HTML</span>
+          <img className="mx-auto" src={html} />{" "}
+          <span className="font-bold text-xl md:text-2xl">HTML</span>
         </div>
         </div>
-        <div className="w-auto h-16 mx-auto">
-        <div className="md:flex items-center">
-          <img className="mx-1" src={css} />
-          <span className="font-bold text-2xl mr-4">CSS</span>
+        <div className="mx-auto">
+        <div className="md:flex items-center text-center">
+          <img className="mx-auto" src={css} />
+          <span className="font-bold text-xl md:text-2xl">CSS</span>
         </div>
         </div>
-        <div className="w-auto h-16 mx-auto">
-        <div className="md:flex items-center">
-          <img className="mx-1" src={javaScript} />
-          <span className="font-bold text-2xl mr-2">JavaScript</span>
+        <div className="mx-auto">
+        <div className="md:flex items-center  text-center">
+          <img className="mx-auto" src={javaScript} />
+          <span className="font-bold text-xl md:text-2xl">JavaScript</span>
         </div>
         </div>
-        <div className="w-auto h-20 mx-auto">
-        <div className="md:flex items-center">
-          <img className="mx-1" src={react} />
-          <span className="font-bold text-2xl">React</span>
+        <div className="mx-auto">
+        <div className="md:flex items-center text-center">
+          <img className="mx-auto" src={react} />
+          <span className="font-bold text-xl md:text-2xl">React</span>
         </div>
         </div>
       </div>
