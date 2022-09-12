@@ -1,9 +1,9 @@
-import { TituloPaginas } from "../components/ComponentesReutilizables/TituloPaginas";
+import { TituloPaginas } from "./ComponentesReutilizables/TituloPaginas";
 
-export const Contactame = () => {
+export const Contacto = () => {
   return (
-    <div id="contactame" className="contactame">
-      <TituloPaginas titulo="Contáctame" />
+    <div id="contacto" className="contacto">
+      <TituloPaginas titulo="Contacto" />
       <div className="flex justify-center ">
         <form className="formulario rounded-xl py-8 px-8 mb-5 mx-5">
           <label className="block font-medium text-white mb-2">

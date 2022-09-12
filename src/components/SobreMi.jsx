@@ -3,7 +3,7 @@ import { TituloPaginas } from "../components/ComponentesReutilizables/TituloPagi
 
 export const SobreMi = () => {
   return (
-    <div className="mt-5">
+    <div className="mt-5" id="sobremi">
       <TituloPaginas titulo="Sobre mí" />
 
       <div className="bg-white md:flex">
@@ -12,7 +12,7 @@ export const SobreMi = () => {
         </div>
 
         <div className="block my-auto mx-auto w-96 md:w-2/5 pt-6 pb-6">
-          <h1 id="sobremi" className="text-black font-black text-4xl md:text-5xl text-left block mx-4">
+          <h1 className="text-black font-black text-4xl md:text-5xl text-left block mx-4">
             ¡Hola! 😊{" "}
             <span className="saludoHola block font-black text-black text-2xl md:text-3xl text-left mt-2">
               Mi nombre es Leydi
