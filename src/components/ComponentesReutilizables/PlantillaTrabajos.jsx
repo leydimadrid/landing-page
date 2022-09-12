@@ -13,14 +13,14 @@ export const PlantillaTrabajos = ({ titulo, descripcion, imagen }) => {
         <a href="https://www.behance.net/SaromaDG" target="_blank">
             <button
               id="gitHub"
-              className="botonVistayGitHub block font-bold rounded-full text-white p-2 px-5 cursor-pointer drop-shadow-xl"
+              className="botonVistayGitHub block font-bold rounded-full text-white p-2 px-5 cursor-pointer shadow-xl"
             >Vista previa</button>
           </a>
 
           <a href="https://www.behance.net/SaromaDG" target="_blank">
             <button
               id="gitHub"
-              className="botonVistayGitHub block font-bold rounded-full text-white p-2 px-5 cursor-pointer drop-shadow-xl ml-6"
+              className="botonVistayGitHub block font-bold rounded-full text-white p-2 px-5 cursor-pointer shadow-xl ml-6"
             >GitHub</button>
           </a>
         </div>
