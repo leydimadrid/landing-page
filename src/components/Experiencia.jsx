@@ -1,7 +1,7 @@
 export const Experiencia = () => {
     return (
-      <div className="experiencia">
-        <div className="text-white text-2xl font-black text-center underline pt-14">
+      <div className="experiencia pb-6">
+        <div className="text-white text-2xl font-black text-center underline pt-6">
           Experiencia
         </div>{" "}
         <div className="md:flex justify-center mt-12">

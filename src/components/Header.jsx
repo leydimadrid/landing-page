@@ -1,5 +1,6 @@
-import AppNav from "../routes/AppNav";
+
 import logoSaroma from '../assets/logo-saroma.svg';
+import { NavBar } from '../routes/Navbar';
 
 export const Header = () => {
   return (
@@ -10,7 +11,7 @@ export const Header = () => {
           </a>
       </div>
       <div className="float-right my-3 mr-1">
-        <AppNav />
+        <NavBar />
       </div>
     </div>
   );

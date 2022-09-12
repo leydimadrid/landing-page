@@ -5,64 +5,62 @@ import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javaScript from "../assets/javaScript.png";
 import react from "../assets/react.png";
+import { TituloPaginas } from "./ComponentesReutilizables/TituloPaginas";
+import { TituloHabilidades } from "./ComponentesReutilizables/TituloHabilidades";
 
 
 export const Habilidades = () => {
   return (
     <div className="habilidades">
-      <div className="text-2xl font-black text-center underline pt-5">
-        Habilidades
-      </div> 
-      <h1 className="diseñoGraficoHabilidad text-2xl font-bold mt-12 mb-4 text-center">
-        Diseño gráfico
-      </h1>
+      <TituloPaginas titulo="Habilidades" />
+      <TituloHabilidades
+      titulo="Diseño gráfico" />
       <div className="flex flex-cols-3 mx-4 items-center mb-14 pt-7">
         <div className="mx-auto">
         <div className="md:flex items-center text-center">
         <img className="mx-auto" src={animacion} />
-          <span className="font-bold text-xl md:text-2xl">Animación 2D</span>
+          <span className="font-bold text-xl md:text-2xl ml-3">Animación 2D</span>
         </div>
         </div>
         <div className="mx-auto">
         <div className="md:flex items-center text-center">
           <img className="mx-auto" src={disenoDigital} />
-          <span className="font-bold text-xl md:text-2xl">Diseño digital</span>
+          <span className="font-bold text-xl md:text-2xl ml-3">Diseño digital</span>
         </div>
         </div>
         <div className="mx-auto">
         <div className="md:flex items-center text-center">
           <img className="mx-auto" src={disenoUIUX} />
-          <span className="font-bold text-xl md:text-2xl">Diseño UI/UX</span>
+          <span className="font-bold text-xl md:text-2xl ml-3">Diseño UI/UX</span>
         </div>
         </div>
       </div>
-      <h1 className="desarrolloWebHabilidad text-2xl font-bold mb-4 text-center">
-        Desarrollo web
-      </h1>
+      <TituloHabilidades
+      titulo="Desarrollo web" />
       <div className="flex flex-cols-4 mx-4 items-center pb-7">
       <div className="mx-auto">
         <div className="md:flex items-center text-center">
           {" "}
           <img className="mx-auto" src={html} />{" "}
-          <span className="font-bold text-xl md:text-2xl">HTML</span>
+          <span className="font-bold text-xl md:text-2xl ml-3">HTML</span>
         </div>
         </div>
         <div className="mx-auto">
         <div className="md:flex items-center text-center">
           <img className="mx-auto" src={css} />
-          <span className="font-bold text-xl md:text-2xl">CSS</span>
+          <span className="font-bold text-xl md:text-2xl ml-3">CSS</span>
         </div>
         </div>
         <div className="mx-auto">
         <div className="md:flex items-center  text-center">
           <img className="mx-auto" src={javaScript} />
-          <span className="font-bold text-xl md:text-2xl">JavaScript</span>
+          <span className="font-bold text-xl md:text-2xl ml-3">JavaScript</span>
         </div>
         </div>
         <div className="mx-auto">
         <div className="md:flex items-center text-center">
           <img className="mx-auto" src={react} />
-          <span className="font-bold text-xl md:text-2xl">React</span>
+          <span className="font-bold text-xl md:text-2xl ml-3">React</span>
         </div>
         </div>
       </div>

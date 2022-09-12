@@ -1,43 +1,52 @@
-import { PortafolioDesarrolloWeb } from "./PortafolioDesarrolloWeb";
-import { PortafolioDiseñoGrafico } from "./PortafolioDiseñoGrafico";
+import { DiseñoGrafico } from "./ComponentesReutilizables/DiseñoGrafico";
+import { DiseñoUiUx } from "./ComponentesReutilizables/DiseñoUiUx";
+import { PlantillaTrabajos } from "./ComponentesReutilizables/PlantillaTrabajos";
+import { TituloHabilidades } from "./ComponentesReutilizables/TituloHabilidades";
+import { TituloPaginas } from "./ComponentesReutilizables/TituloPaginas";
 import paginaPersonal from "../assets/paginaPersonal.png";
+import listaDeTareas from "../assets/lista-de-tareas.png";
+import FormularioDeContacto from "../assets/formulario-de-contacto.png";
+import contador from "../assets/contador.png";
 
 export const Portafolio = () => {
   return (
     <div id="portafolio" className="seccionPortafolio ">
-      <div className="text-2xl font-black text-center underline pt-5">
-        Portafolio
-      </div>
+      <TituloPaginas titulo="Portafolio" />
 
-      <PortafolioDiseñoGrafico />
-      <h1 className="desarrolloWebHabilidad text-center text-2xl font-bold mt-12 mb-4">
-        Desarrollo web
-      </h1>
-      <PortafolioDesarrolloWeb
-      imagen= {paginaPersonal}
-      titulo="Figma"
-      descripcion="Mockup" />
-      <PortafolioDesarrolloWeb
-      imagen= {paginaPersonal}
-      titulo="Contador"
-      descripcion="Primer ejercicio" />
-      <PortafolioDesarrolloWeb
-      imagen= {paginaPersonal}
-      titulo="Lista de tareas"
-      descripcion="Crud" />
-      <PortafolioDesarrolloWeb
-      imagen= {paginaPersonal}
-      titulo="Formulario de contacto"
-      descripcion="Validación de formulario" />
-      <PortafolioDesarrolloWeb
-      imagen= {paginaPersonal}
-      titulo="App Héroes"
-      descripcion="Consumo API Héroes" />
-      <PortafolioDesarrolloWeb
-      imagen= {paginaPersonal}
-      titulo="App Clima"
-      descripcion="Consumo API Clima" />
-      
+      <DiseñoGrafico />
+      <DiseñoUiUx />
+      <TituloHabilidades titulo="Desarrollo web" />
+
+      <PlantillaTrabajos
+        imagen={contador}
+        titulo="Contador"
+        descripcion="Primer ejercicio"
+      />
+
+      <PlantillaTrabajos
+        imagen={listaDeTareas}
+        titulo="Lista de tareas"
+        descripcion="Crud"
+      />
+
+      <PlantillaTrabajos
+        imagen={FormularioDeContacto}
+        titulo="Formulario de contacto"
+        descripcion="Validación de formulario"
+      />
+
+      <PlantillaTrabajos titulo="App Héroes" descripcion="Consumo API Héroes" />
+
+      <PlantillaTrabajos
+        titulo="App Clima"
+        descripcion="Consumo API Clima"
+      />
+
+      <PlantillaTrabajos
+        imagen={paginaPersonal}
+        titulo="Landing personal"
+        descripcion="Landing"
+      />
     </div>
   );
 };
