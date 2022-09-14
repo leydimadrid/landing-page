@@ -1,4 +1,4 @@
-export const PlantillaTrabajosUIUX = ({
+export const PlantillaTrabajosVistaPrevia = ({
   imagen,
   titulo,
   descripcion,

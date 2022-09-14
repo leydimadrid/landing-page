@@ -1,7 +1,10 @@
 export const EstudiosPage = () => {
   return (
-    <section className="estudios">
-      <h1 id="estudios" className="text-white text-2xl font-black text-center underline pt-5">
+    <section className="estudios ">
+      <h1
+        id="estudios"
+        className="text-white text-2xl font-black text-center underline pt-5"
+      >
         Estudios
       </h1>{" "}
       <div className="md:flex justify-center mt-12 pb-4">

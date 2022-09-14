@@ -45,14 +45,4 @@ export const proyectosDesarrolloWeb = [
     urlvistaprevia: "https://aplicaciondelclima.netlify.app/",
     urlgithub: "https://github.com/leydimadrid/app-clima",
   },
-
-  {
-    id: 6,
-    imagen: "pagina-personal.png",
-    titulo: "Landing personal",
-    descripcion:
-      "Creación de mi landing personal, encontrarás un poco sobre mí y los trabajos que he realizado",
-    urlvistaprevia: "https://aplicaciondelclima.netlify.app/",
-    urlgithub: "https://github.com/leydimadrid/landing-page",
-  },
 ];

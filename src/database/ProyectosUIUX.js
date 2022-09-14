@@ -8,4 +8,5 @@ export const ProyectosUIUX = [
     urlvistaprevia:
       "https://www.figma.com/file/R51udZZ33yIJRXjEqzGZmA/Wireframe-Landing-Page?node-id=0%3A1",
   },
+
 ];

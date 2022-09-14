@@ -1,10 +1,13 @@
 import { DiseñoGrafico } from "../Components/ComponentesReutilizables/DiseñoGrafico";
-import { PlantillaTrabajosUIUX } from "../components/ComponentesReutilizables/PlantillaTrabajosUIUX";
+import { PlantillaTrabajosVistaPrevia } from "../components/ComponentesReutilizables/PlantillaTrabajosVistaPrevia";
 import { PlantillaTrabajosWeb } from "../components/ComponentesReutilizables/PlantillaTrabajosWeb";
 import { TituloHabilidades } from "../Components/ComponentesReutilizables/TituloHabilidades";
 import { TituloPaginas } from "../Components/ComponentesReutilizables/TituloPaginas";
-import { proyectosDesarrolloWeb } from "../database/proyectosDesarrolloWeb";
 import { ProyectosUIUX } from "../database/ProyectosUIUX";
+import { proyectosDesarrolloWeb } from "../database/proyectosDesarrolloWeb";
+import { ProyectoLanding } from "../database/ProyectoLanding";
+import { PlantillaTrabajosGithub } from "../components/ComponentesReutilizables/PlantillaTrabajosGithub";
+
 
 export const PortafolioPage = () => {
   return (
@@ -15,7 +18,7 @@ export const PortafolioPage = () => {
       <TituloHabilidades titulo="Diseño UI/UX" />
 
       {ProyectosUIUX.map((proyecto) => (
-        <PlantillaTrabajosUIUX
+        <PlantillaTrabajosVistaPrevia
           key={proyecto.id}
           imagen={proyecto.imagen}
           titulo={proyecto.titulo}
@@ -24,6 +27,16 @@ export const PortafolioPage = () => {
         />
       ))}
       <TituloHabilidades titulo="Desarrollo web" />
+
+      {ProyectoLanding.map((proyecto) => (
+        <PlantillaTrabajosGithub
+          key={proyecto.id}
+          imagen={proyecto.imagen}
+          titulo={proyecto.titulo}
+          descripcion={proyecto.descripcion}
+          urlgithub={proyecto.urlgithub}
+        />
+      ))}
 
       {proyectosDesarrolloWeb.map((proyecto) => (
         <PlantillaTrabajosWeb

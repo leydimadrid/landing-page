@@ -1,4 +1,5 @@
 import logoSaroma from "../assets/logo-saroma.svg";
+
 import { NavBar } from "../components/NavBar";
 
 export const HeaderPage = () => {
