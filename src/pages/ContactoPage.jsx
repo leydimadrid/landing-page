@@ -1,6 +1,6 @@
-import { TituloPaginas } from "./ComponentesReutilizables/TituloPaginas";
+import { TituloPaginas } from "../components/ComponentesReutilizables/TituloPaginas";
 
-export const Contacto = () => {
+export const ContactoPage = () => {
   return (
     <div id="contacto" className="contacto">
       <TituloPaginas titulo="Contacto" />

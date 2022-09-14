@@ -1,4 +1,4 @@
-export const Estudios = () => {
+export const EstudiosPage = () => {
   return (
     <div className="estudios">
       <div className="text-white text-2xl font-black text-center underline pt-5">

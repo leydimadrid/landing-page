@@ -1,7 +1,7 @@
 import fotoLeydi from "../assets/foto-leydi.png";
 import { TituloPaginas } from "../components/ComponentesReutilizables/TituloPaginas";
 
-export const SobreMi = () => {
+export const SobreMiPage = () => {
   return (
     <div className="mt-5" id="sobremi">
       <TituloPaginas titulo="Sobre mí" />

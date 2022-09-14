@@ -5,11 +5,11 @@ import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javaScript from "../assets/javaScript.png";
 import react from "../assets/react.png";
-import { TituloPaginas } from "./ComponentesReutilizables/TituloPaginas";
-import { TituloHabilidades } from "./ComponentesReutilizables/TituloHabilidades";
+import { TituloPaginas } from "../components/ComponentesReutilizables/TituloPaginas";
+import { TituloHabilidades } from "../Components/ComponentesReutilizables/TituloHabilidades";
 
 
-export const Habilidades = () => {
+export const HabilidadesPage = () => {
   return (
     <div className="habilidades">
       <TituloPaginas titulo="Habilidades" />

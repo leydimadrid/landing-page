@@ -1,24 +1,25 @@
-import { Header } from "./components/Header";
-import { Inicio } from "./components/Inicio";
-import { SobreMi } from "./components/SobreMi";
-import { Habilidades } from "./components/Habilidades";
-import { Estudios } from "./components/Estudios";
-import { Experiencia } from "./components/Experiencia";
-import { Portafolio } from "./components/Portafolio";
+import { HeaderPage } from "./pages/HeaderPage";
+import { InicioPage } from "./pages/InicioPage";
+import { SobreMiPage } from "./pages/SobreMiPage";
+import { HabilidadesPage } from "./pages/HabilidadesPage";
+import { EstudiosPage } from "./pages/EstudiosPage";
+import { ExperienciaPage } from "./pages/ExperienciaPage";
+import { PortafolioPage } from "./pages/PortafolioPage";
 import { Footer } from "./components/Footer";
-import { Contacto } from "./components/Contacto";
+import { ContactoPage } from "./pages/ContactoPage";
+
 
 function App() {
   return (
     <div>
-      <Header />
-      <Inicio />
-      <SobreMi />
-      <Habilidades />
-      <Estudios />
-      <Experiencia />
-      <Portafolio />
-      <Contacto />
+      <HeaderPage />
+      <InicioPage />
+      <SobreMiPage />
+      <HabilidadesPage />
+      <EstudiosPage />
+      <ExperienciaPage />
+      <PortafolioPage />
+      <ContactoPage />
       <Footer />
     </div>
   );

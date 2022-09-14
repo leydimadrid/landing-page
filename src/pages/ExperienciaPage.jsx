@@ -1,4 +1,4 @@
-export const Experiencia = () => {
+export const ExperienciaPage = () => {
     return (
       <div className="experiencia pb-6">
         <div className="text-white text-2xl font-black text-center underline pt-6">
