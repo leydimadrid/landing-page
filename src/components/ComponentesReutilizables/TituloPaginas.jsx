@@ -1,7 +1,7 @@
-export const TituloPaginas = ({titulo}) => {
+export const TituloPaginas = ({ titulo }) => {
   return (
-    <div className="text-black text-2xl font-black text-center underline pt-5">
-        {titulo}
-      </div>
-  )
-}
+    <h1 className="text-black text-2xl font-black text-center underline pt-5">
+      {titulo}
+    </h1>
+  );
+};

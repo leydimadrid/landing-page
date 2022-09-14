@@ -3,7 +3,7 @@ import { TituloPaginas } from "../components/ComponentesReutilizables/TituloPagi
 
 export const SobreMiPage = () => {
   return (
-    <div className="mt-5" id="sobremi">
+    <section id="sobremi">
       <TituloPaginas titulo="Sobre mí" />
 
       <div className="bg-white md:flex">
@@ -29,6 +29,6 @@ export const SobreMiPage = () => {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

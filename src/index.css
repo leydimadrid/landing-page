@@ -4,12 +4,11 @@
 
 html {
   height: auto;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-
 .header {
-  background-color: rgba(125, 121, 217, 1);
+  background-color: rgba(126, 121, 217, 0.836);
 }
 
 .inicio {
@@ -17,12 +16,12 @@ html {
 }
 
 .textoBienvenidos {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
 
 .botonPortafolio {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   background-color: rgba(245, 194, 11, 1);
   font-size: 20px;
@@ -53,11 +52,9 @@ html {
   height: auto;
 }
 
-
 .tituloHabilidades {
   color: rgba(125, 121, 217, 1);
 }
-
 
 .estudios {
   background-color: rgba(125, 121, 217, 1);
@@ -82,42 +79,15 @@ html {
 }
 
 .botonVistayGitHub {
-  background-color: rgba(125, 121, 217, 1);
-  font-size: 20px;
+  background-color: rgb(103, 97, 224);
 }
 .botonVistayGitHub:hover {
   background-color: rgb(95, 89, 209);
-  font-size: 20px;
 }
 
 .contacto {
   height: auto;
-  background: rgb(255, 255, 255);
-  background: linear-gradient(
-    0deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(126, 121, 217, 0.164) 70%
-  );
-}
-
-.formulario {
   background-color: rgba(125, 121, 217, 1);
-  height: auto;
-  width: 600px;
 }
 
-.enviarMensaje {
-  color: rgba(125, 121, 217, 1);
-  background-color: rgb(255, 255, 255);
-  font-size: 16px;
-}
-.enviarMensaje:hover {
-  color: rgba(125, 121, 217, 1);
-  background-color: rgb(255, 255, 255);
-  font-size: 18px;
-}
 
-.pieDePagina {
-  background-color: rgba(125, 121, 217, 1);
-  height: 70px;
-}

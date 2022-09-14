@@ -10,7 +10,7 @@ export const DiseñoGrafico = () => {
   return (
     <>
       <TituloHabilidades titulo="Diseño gráfico" />
-      <div className="flex justify-center mx-5">
+      <section className="flex justify-center mx-5">
         <div className="Cultivos">
           <img src={Cultivos1} />
         </div>
@@ -20,8 +20,8 @@ export const DiseñoGrafico = () => {
         <div className="Cultivos">
           <img src={Cultivos3} />
         </div>
-      </div>
-      <div className="flex justify-center mx-5 mt-6">
+      </section>
+      <section className="flex justify-center mx-5 mt-6">
         <div>
           <img className="md:mr-16" src={AficheStand} />
         </div>
@@ -30,7 +30,7 @@ export const DiseñoGrafico = () => {
 
           <img src={PiezaVelas} />
         </div>
-      </div>
+      </section>
     </>
   );
 };

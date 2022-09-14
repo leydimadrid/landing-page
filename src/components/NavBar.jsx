@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 export const NavBar = () => {
   return (
     <>
-    <nav className=" my-4 mr-1">
+      <nav className=" my-4 mr-1">
         <ul className="md:flex md:text-base text-lg text-center">
           <li className="cursor-pointer text-white hover:underline mx-3">
             <Link activeClass="active" smooth spy to="inicio">
@@ -12,7 +12,7 @@ export const NavBar = () => {
           </li>
           <li className="cursor-pointer  text-white hover:underline mx-3">
             <Link activeClass="active" smooth spy to="sobremi">
-              Sobre mi
+              Sobre mí
             </Link>
           </li>
           <li className="cursor-pointer  text-white hover:underline mx-3">
@@ -37,10 +37,11 @@ export const NavBar = () => {
           </li>
           <li className="cursor-pointer text-white hover:underline mx-3">
             <Link activeClass="active" smooth spy to="contacto">
-              Contacto
+              Contáctame
             </Link>
           </li>
         </ul>
-      </nav></>
-  )
-}
+      </nav>
+    </>
+  );
+};

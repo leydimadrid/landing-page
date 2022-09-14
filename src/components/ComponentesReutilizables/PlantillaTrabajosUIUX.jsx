@@ -2,7 +2,7 @@ export const PlantillaTrabajosUIUX = ({
   imagen,
   titulo,
   descripcion,
-  urlvistaprevia
+  urlvistaprevia,
 }) => {
   return (
     <div className="flex justify-center">
@@ -14,12 +14,12 @@ export const PlantillaTrabajosUIUX = ({
           <span className="font-bold text-black">{titulo}</span> <br />
           {descripcion}
         </p>
-        <div className="flex justify-center">
+        <div className="md:flex justify-center">
           <a
             href={urlvistaprevia}
             target="_blank"
             id="vistaprevia"
-            className="botonVistayGitHub block font-bold rounded-full text-white p-2 px-5 cursor-pointer shadow-xl"
+            className="botonVistayGitHub font-bold rounded-full text-white py-1 md:p-4 md:px-4 cursor-pointer shadow-xl items-center flex justify-center focus:outline-none focus:ring focus:ring-violet-300"
           >
             Vista previa
           </a>

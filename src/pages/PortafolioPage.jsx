@@ -8,7 +8,7 @@ import { ProyectosUIUX } from "../database/ProyectosUIUX";
 
 export const PortafolioPage = () => {
   return (
-    <div id="portafolio" className="seccionPortafolio ">
+    <section id="portafolio" className="seccionPortafolio ">
       <TituloPaginas titulo="Portafolio" />
 
       <DiseñoGrafico />
@@ -35,6 +35,6 @@ export const PortafolioPage = () => {
           urlgithub={proyecto.urlgithub}
         />
       ))}
-    </div>
+    </section>
   );
 };

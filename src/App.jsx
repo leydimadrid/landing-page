@@ -6,8 +6,7 @@ import { EstudiosPage } from "./pages/EstudiosPage";
 import { ExperienciaPage } from "./pages/ExperienciaPage";
 import { PortafolioPage } from "./pages/PortafolioPage";
 import { Footer } from "./components/Footer";
-import { ContactoPage } from "./pages/ContactoPage";
-
+import { ContactamePage } from "./pages/ContactamePage";
 
 function App() {
   return (
@@ -19,7 +18,7 @@ function App() {
       <EstudiosPage />
       <ExperienciaPage />
       <PortafolioPage />
-      <ContactoPage />
+      <ContactamePage />
       <Footer />
     </div>
   );

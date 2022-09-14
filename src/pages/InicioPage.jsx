@@ -2,7 +2,7 @@ import ilustracioninicio from "../assets/ilustracion-inicio.svg";
 
 export const InicioPage = () => {
   return (
-    <div className="inicio md:flex justify-center md:pt-24 pt-72">
+    <section className="inicio md:flex justify-center md:pt-24 pt-72">
       <div className="my-auto mx-auto">
         <h1 className="text-5xl md:text-8xl text-white text-center">
           Bienvenidos
@@ -21,6 +21,6 @@ export const InicioPage = () => {
       <div className="mx-auto w-11/12 md:w-2/5 mt-6 pb-6">
         <img src={ilustracioninicio} />
       </div>
-    </div>
+    </section>
   );
 };

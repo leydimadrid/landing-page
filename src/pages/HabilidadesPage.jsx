@@ -8,62 +8,67 @@ import react from "../assets/react.png";
 import { TituloPaginas } from "../components/ComponentesReutilizables/TituloPaginas";
 import { TituloHabilidades } from "../Components/ComponentesReutilizables/TituloHabilidades";
 
-
 export const HabilidadesPage = () => {
   return (
-    <div className="habilidades">
+    <section className="habilidades">
       <TituloPaginas titulo="Habilidades" />
-      <TituloHabilidades
-      titulo="Diseño gráfico" />
+      <TituloHabilidades titulo="Diseño gráfico" />
       <div className="flex flex-cols-3 mx-4 items-center mb-14 pt-7">
         <div className="mx-auto">
-        <div className="md:flex items-center text-center">
-        <img className="mx-auto" src={animacion} />
-          <span className="font-bold text-xl md:text-2xl ml-3">Animación 2D</span>
-        </div>
-        </div>
-        <div className="mx-auto">
-        <div className="md:flex items-center text-center">
-          <img className="mx-auto" src={disenoDigital} />
-          <span className="font-bold text-xl md:text-2xl ml-3">Diseño digital</span>
-        </div>
+          <div className="md:flex items-center text-center">
+            <img className="mx-auto" src={animacion} />
+            <span className="font-bold text-xl md:text-2xl ml-3">
+              Animación 2D
+            </span>
+          </div>
         </div>
         <div className="mx-auto">
-        <div className="md:flex items-center text-center">
-          <img className="mx-auto" src={disenoUIUX} />
-          <span className="font-bold text-xl md:text-2xl ml-3">Diseño UI/UX</span>
+          <div className="md:flex items-center text-center">
+            <img className="mx-auto" src={disenoDigital} />
+            <span className="font-bold text-xl md:text-2xl ml-3">
+              Diseño digital
+            </span>
+          </div>
         </div>
+        <div className="mx-auto">
+          <div className="md:flex items-center text-center">
+            <img className="mx-auto" src={disenoUIUX} />
+            <span className="font-bold text-xl md:text-2xl ml-3">
+              Diseño UI/UX
+            </span>
+          </div>
         </div>
       </div>
-      <TituloHabilidades
-      titulo="Desarrollo web" />
+      <TituloHabilidades titulo="Desarrollo web" />
       <div className="flex flex-cols-4 mx-4 items-center pb-7">
-      <div className="mx-auto">
-        <div className="md:flex items-center text-center">
-          {" "}
-          <img className="mx-auto" src={html} />{" "}
-          <span className="font-bold text-xl md:text-2xl ml-3">HTML</span>
-        </div>
+        <div className="mx-auto">
+          <div className="md:flex items-center text-center">
+            {" "}
+            <img className="mx-auto" src={html} />{" "}
+            <span className="font-bold text-xl md:text-2xl ml-3">HTML</span>
+          </div>
         </div>
         <div className="mx-auto">
-        <div className="md:flex items-center text-center">
-          <img className="mx-auto" src={css} />
-          <span className="font-bold text-xl md:text-2xl ml-3">CSS</span>
-        </div>
-        </div>
-        <div className="mx-auto">
-        <div className="md:flex items-center  text-center">
-          <img className="mx-auto" src={javaScript} />
-          <span className="font-bold text-xl md:text-2xl ml-3">JavaScript</span>
-        </div>
+          <div className="md:flex items-center text-center">
+            <img className="mx-auto" src={css} />
+            <span className="font-bold text-xl md:text-2xl ml-3">CSS</span>
+          </div>
         </div>
         <div className="mx-auto">
-        <div className="md:flex items-center text-center">
-          <img className="mx-auto" src={react} />
-          <span className="font-bold text-xl md:text-2xl ml-3">React</span>
+          <div className="md:flex items-center  text-center">
+            <img className="mx-auto" src={javaScript} />
+            <span className="font-bold text-xl md:text-2xl ml-3">
+              JavaScript
+            </span>
+          </div>
         </div>
+        <div className="mx-auto">
+          <div className="md:flex items-center text-center">
+            <img className="mx-auto" src={react} />
+            <span className="font-bold text-xl md:text-2xl ml-3">React</span>
+          </div>
         </div>
       </div>
-      </div>
+    </section>
   );
 };
