@@ -49,7 +49,7 @@ export const proyectosDesarrolloWeb = [
   {
     id: 6,
     imagen: "pagina-personal.png",
-    titulo: "Mi landing personal",
+    titulo: "Landing personal",
     descripcion:
       "Creación de mi landing personal, encontrarás un poco sobre mí y los trabajos que he realizado",
     urlvistaprevia: "https://aplicaciondelclima.netlify.app/",

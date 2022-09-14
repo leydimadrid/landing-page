@@ -86,7 +86,11 @@ html {
 }
 
 .contacto {
-  height: auto;
+  background-color: rgba(125, 121, 217, 1);
+}
+
+
+.footer {
   background-color: rgba(125, 121, 217, 1);
 }
 
