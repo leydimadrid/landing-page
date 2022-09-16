@@ -2,7 +2,7 @@ import ilustracioninicio from "../assets/ilustracion-inicio.svg";
 
 export const InicioPage = () => {
   return (
-    <section className="inicio md:flex justify-center md:pt-24 pt-72">
+    <section id="inicio" className="inicio md:flex justify-center md:pt-24 pt-72">
       <div className="my-auto mx-auto">
         <h1 className="text-5xl md:text-8xl text-white text-center">
           Bienvenidos
