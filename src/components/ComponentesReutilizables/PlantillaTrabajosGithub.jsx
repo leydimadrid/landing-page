@@ -20,10 +20,10 @@ export const PlantillaTrabajosGithub = ({
           <a
             href={urlgithub}
             target="_blank"
-            id="vistaprevia"
+            id="github"
             className="botonVistayGitHub font-bold rounded-full text-white py-1 md:p-4 md:px-4 cursor-pointer shadow-xl items-center flex justify-center focus:outline-none focus:ring focus:ring-violet-300"
           >
-            <img className="md:w-7 w-6 mr-2" src={iconoGitHub} /> Github
+            <img className="md:w-7 w-6 mr-2" src={iconoGitHub} /> GitHub
           </a>
         </div>
         </div>

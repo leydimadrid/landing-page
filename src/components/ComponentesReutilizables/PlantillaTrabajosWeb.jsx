@@ -29,7 +29,7 @@ export const PlantillaTrabajosWeb = ({
           <a
             href={urlgithub}
             target="_blank"
-            id="vistaprevia"
+            id="github"
             className="botonVistayGitHub font-bold rounded-full text-white  py-1 md:px-6 cursor-pointer shadow-xl items-center flex justify-center mt-2 md:mt-0 md:ml-8 ml-0 focus:outline-none focus:ring focus:ring-violet-300 "
           >
             <img className="md:w-7 w-6 mr-2" src={iconoGitHub} />
