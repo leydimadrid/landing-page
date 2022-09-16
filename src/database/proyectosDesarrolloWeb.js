@@ -32,7 +32,8 @@ export const proyectosDesarrolloWeb = [
     id: 4,
     imagen: "superheroes.png",
     titulo: "Aplicación de Superhéroes",
-    descripcion: "Consumo de API de superhéroes de Marvel y DC, algunos ítems tienen animaciones y podrás ver cada superhéroe individualmente en 'Ver perfil'. ",
+    descripcion:
+      "Consumo de API de superhéroes de Marvel y DC, algunos ítems tienen animaciones y podrás ver cada superhéroe individualmente en 'Ver perfil'. ",
     urlvistaprevia: "https://superheroesmarveldc.netlify.app",
     urlgithub: "https://github.com/leydimadrid/app-heroes",
   },
@@ -41,7 +42,8 @@ export const proyectosDesarrolloWeb = [
     id: 5,
     imagen: "app-clima.png",
     titulo: "Aplicación del clima",
-    descripcion: "Consumo de API de clima, tiene un buscador para ver la información de diferentes lugares, adicional un mensaje si la ciudad no se encuentra.",
+    descripcion:
+      "Consumo de API de clima, tiene un buscador para ver la información de diferentes lugares, adicional un mensaje si la ciudad no se encuentra.",
     urlvistaprevia: "https://aplicaciondelclima.netlify.app/",
     urlgithub: "https://github.com/leydimadrid/app-clima",
   },

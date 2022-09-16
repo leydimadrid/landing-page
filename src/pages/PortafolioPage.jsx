@@ -8,7 +8,6 @@ import { proyectosDesarrolloWeb } from "../database/proyectosDesarrolloWeb";
 import { ProyectoLanding } from "../database/ProyectoLanding";
 import { PlantillaTrabajosGithub } from "../components/ComponentesReutilizables/PlantillaTrabajosGithub";
 
-
 export const PortafolioPage = () => {
   return (
     <section id="portafolio" className="seccionPortafolio ">
