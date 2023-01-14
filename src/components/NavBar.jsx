@@ -35,7 +35,7 @@ export const NavBar = () => {
               Portafolio
             </Link>
           </li>
-          <li className="cursor-pointer text-white hover:underline mx-3">
+          <li className="cursor-pointer text-white hover:underline ">
             <Link activeClass="active" smooth spy to="contacto">
               Contáctame
             </Link>

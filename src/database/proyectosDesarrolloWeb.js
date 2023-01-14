@@ -28,7 +28,7 @@ export const proyectosDesarrolloWeb = [
     urlgithub: "https://github.com/leydimadrid/formulario-de-contacto",
   },
 
-  {
+  /*{
     id: 4,
     imagen: "superheroes.png",
     titulo: "Aplicación de Superhéroes",
@@ -36,7 +36,7 @@ export const proyectosDesarrolloWeb = [
       "Consumo de API de superhéroes de Marvel y DC, algunos ítems tienen animaciones y podrás ver cada superhéroe individualmente en 'Ver perfil'. ",
     urlvistaprevia: "https://superheroesmarveldc.netlify.app",
     urlgithub: "https://github.com/leydimadrid/app-heroes",
-  },
+  }, */
 
   {
     id: 5,

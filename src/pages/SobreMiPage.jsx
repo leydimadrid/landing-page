@@ -1,7 +1,9 @@
 import fotoLeydi from "../assets/foto-leydi.png";
 import { TituloPaginas } from "../components/ComponentesReutilizables/TituloPaginas";
+import { useTranslation } from "react-i18next";
 
 export const SobreMiPage = () => {
+  const { t } = useTranslation();
   return (
     <section id="sobremi">
       <TituloPaginas titulo="Sobre mí" />
@@ -15,7 +17,7 @@ export const SobreMiPage = () => {
           <h1 className="text-black font-black text-4xl md:text-5xl text-left block mx-4">
             ¡Hola! 😊{" "}
             <span className="saludoHola block font-black text-black text-2xl md:text-3xl text-left mt-2">
-              Mi nombre es Leydi
+              {t("My-name-is-Leydi")}
             </span>
           </h1>
 

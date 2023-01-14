@@ -1,11 +1,15 @@
 import ilustracioninicio from "../assets/ilustracion-inicio.svg";
+import { useTranslation } from "react-i18next";
 
 export const InicioPage = () => {
+  const {t} = useTranslation()
   return (
     <section id="inicio" className="inicio md:flex justify-center md:pt-24 pt-72">
       <div className="my-auto mx-auto">
         <h1 className="text-5xl md:text-8xl text-white text-center">
-          Bienvenidos
+          {
+        t('WELCOME')
+      } 
         </h1>
         <h3 className=" text-white text-md md:text-3xl text-center">
           Aquí encontrarás un poco sobre mí y{" "}
